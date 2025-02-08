@@ -16,6 +16,8 @@
 #include <memory>
 #include "L2_addTwoNumbers/L2_addTwoNumbers.h"
 #include "L19_removeNthFromEnd/L19_removeNthFromEnd.h"
+#include "L21_mergeTwoLists/L21_mergeTwoLists.h"
+#include "L23_mergeKLists/L23_mergeKLists.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -24,6 +26,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L19") {
             std::shared_ptr<L19_removeNthFromEnd> tmp= std::make_shared<L19_removeNthFromEnd>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L21") {
+            std::shared_ptr<L21_mergeTwoLists> tmp= std::make_shared<L21_mergeTwoLists>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L23") {
+            std::shared_ptr<L23_mergeKLists> tmp= std::make_shared<L23_mergeKLists>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }
