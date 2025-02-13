@@ -13,3 +13,7 @@ LeetCode链表算法题的解题仓库
 [21. 合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/description/?envType=problem-list-v2&envId=linked-list) : [L21_mergeTwoLists](L21_mergeTwoLists)
 
 [23. 合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/description/?envType=problem-list-v2&envId=linked-list) : [L23_mergeKLists](L23_mergeKLists)
+
+[24. 两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/description/?envType=problem-list-v2&envId=linked-list) : [L24_swapPairs](L24_swapPairs)
+
+[25. K 个一组翻转链表](https://leetcode.cn/problems/reverse-nodes-in-k-group/description/?envType=problem-list-v2&envId=linked-list) : [L25_reverseKGroup](L25_reverseKGroup)
