@@ -17,3 +17,7 @@ LeetCode链表算法题的解题仓库
 [24. 两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/description/?envType=problem-list-v2&envId=linked-list) : [L24_swapPairs](L24_swapPairs)
 
 [25. K 个一组翻转链表](https://leetcode.cn/problems/reverse-nodes-in-k-group/description/?envType=problem-list-v2&envId=linked-list) : [L25_reverseKGroup](L25_reverseKGroup)
+
+[61. 旋转链表](https://leetcode.cn/problems/rotate-list/description/?envType=problem-list-v2&envId=linked-list) : [L61_rotateRight](L61_rotateRight)
+
+[82. 删除排序链表中的重复元素 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/description/?envType=problem-list-v2&envId=linked-list) : [L82_deleteDuplicates](L82_deleteDuplicates)

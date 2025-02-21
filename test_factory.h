@@ -20,6 +20,8 @@
 #include "L23_mergeKLists/L23_mergeKLists.h"
 #include "L24_swapPairs/L24_swapPairs.h"
 #include "L25_reverseKGroup/L25_reverseKGroup.h"
+#include "L61_rotateRight/L61_rotateRight.h"
+#include "L82_deleteDuplicates/L82_deleteDuplicates.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -40,6 +42,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L25") {
             std::shared_ptr<L25_reverseKGroup> tmp= std::make_shared<L25_reverseKGroup>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L61") {
+            std::shared_ptr<L61_rotateRight> tmp= std::make_shared<L61_rotateRight>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L82") {
+            std::shared_ptr<L82_deleteDuplicates> tmp= std::make_shared<L82_deleteDuplicates>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }
