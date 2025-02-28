@@ -21,3 +21,7 @@ LeetCode链表算法题的解题仓库
 [61. 旋转链表](https://leetcode.cn/problems/rotate-list/description/?envType=problem-list-v2&envId=linked-list) : [L61_rotateRight](L61_rotateRight)
 
 [82. 删除排序链表中的重复元素 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/description/?envType=problem-list-v2&envId=linked-list) : [L82_deleteDuplicates](L82_deleteDuplicates)
+
+[83. 删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/description/?envType=problem-list-v2&envId=linked-list) : [L83_deleteDuplicates](L83_deleteDuplicates)
+
+[86. 分隔链表](https://leetcode.cn/problems/partition-list/description/?envType=problem-list-v2&envId=linked-list) : [L86_partition](L86_partition)

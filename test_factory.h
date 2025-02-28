@@ -22,6 +22,8 @@
 #include "L25_reverseKGroup/L25_reverseKGroup.h"
 #include "L61_rotateRight/L61_rotateRight.h"
 #include "L82_deleteDuplicates/L82_deleteDuplicates.h"
+#include "L83_deleteDuplicates/L83_deleteDuplicates.h"
+#include "L86_partition/L86_partition.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -49,6 +51,14 @@ private:
         } else if (title == "L82") {
             std::shared_ptr<L82_deleteDuplicates> tmp= std::make_shared<L82_deleteDuplicates>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L83") {
+            std::shared_ptr<L83_deleteDuplicates> tmp= std::make_shared<L83_deleteDuplicates>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L86") {
+            std::shared_ptr<L86_partition> tmp= std::make_shared<L86_partition>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:
