@@ -25,3 +25,7 @@ LeetCode链表算法题的解题仓库
 [83. 删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/description/?envType=problem-list-v2&envId=linked-list) : [L83_deleteDuplicates](L83_deleteDuplicates)
 
 [86. 分隔链表](https://leetcode.cn/problems/partition-list/description/?envType=problem-list-v2&envId=linked-list) : [L86_partition](L86_partition)
+
+[92. 反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/description/?envType=problem-list-v2&envId=linked-list) : [L92_reverseBetween](L92_reverseBetween)
+
+[109. 有序链表转换二叉搜索树](https://leetcode.cn/problems/convert-sorted-list-to-binary-search-tree/description/?envType=problem-list-v2&envId=linked-list) : [L109_sortedListToBST](L109_sortedListToBST)

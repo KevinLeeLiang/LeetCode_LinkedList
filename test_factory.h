@@ -24,6 +24,9 @@
 #include "L82_deleteDuplicates/L82_deleteDuplicates.h"
 #include "L83_deleteDuplicates/L83_deleteDuplicates.h"
 #include "L86_partition/L86_partition.h"
+#include "L92_reverseBetween/L92_reverseBetween.h"
+#include "L109_sortedListToBST/L109_sortedListToBST.h"
+
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -56,6 +59,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L86") {
             std::shared_ptr<L86_partition> tmp= std::make_shared<L86_partition>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L92") {
+            std::shared_ptr<L92_reverseBetween> tmp= std::make_shared<L92_reverseBetween>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L109") {
+            std::shared_ptr<L109_sortedListToBST> tmp= std::make_shared<L109_sortedListToBST>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else {
             cout << "no solution" << endl;
