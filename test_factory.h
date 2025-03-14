@@ -26,6 +26,8 @@
 #include "L86_partition/L86_partition.h"
 #include "L92_reverseBetween/L92_reverseBetween.h"
 #include "L109_sortedListToBST/L109_sortedListToBST.h"
+#include "L114_flatten/L114_flatten.h"
+#include "L116_connect/L116_connect.h"
 
 class test_factory {
 private:
@@ -66,8 +68,12 @@ private:
         } else if (title == "L109") {
             std::shared_ptr<L109_sortedListToBST> tmp= std::make_shared<L109_sortedListToBST>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L114") {
+            std::shared_ptr<L114_flatten> tmp= std::make_shared<L114_flatten>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L116") {
+            std::shared_ptr<L116_connect> tmp= std::make_shared<L116_connect>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }
 public:
