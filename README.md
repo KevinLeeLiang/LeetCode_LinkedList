@@ -33,3 +33,7 @@ LeetCode链表算法题的解题仓库
 [114. 二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L114_flatten](L114_flatten)
 
 [116. 填充每个节点的下一个右侧节点指针](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/description/?envType=problem-list-v2&envId=linked-list) : [L116_connect](L116_connect)
+
+[117. 填充每个节点的下一个右侧节点指针 II](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node-ii/description/?envType=problem-list-v2&envId=linked-list) : [L117_connect](L117_connect)
+
+[138. 复制带随机指针的链表](https://leetcode.cn/problems/copy-list-with-random-pointer/description/?envType=problem-list-v2&envId=linked-list) : [L138_copyRandomList](L138_copyRandomList)

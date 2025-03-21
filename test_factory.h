@@ -28,6 +28,7 @@
 #include "L109_sortedListToBST/L109_sortedListToBST.h"
 #include "L114_flatten/L114_flatten.h"
 #include "L116_connect/L116_connect.h"
+#include "L117_connect/L117_connect.h"
 
 class test_factory {
 private:
@@ -73,6 +74,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L116") {
             std::shared_ptr<L116_connect> tmp= std::make_shared<L116_connect>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L117") {
+            std::shared_ptr<L117_connect> tmp= std::make_shared<L117_connect>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }
