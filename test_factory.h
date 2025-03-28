@@ -29,6 +29,8 @@
 #include "L114_flatten/L114_flatten.h"
 #include "L116_connect/L116_connect.h"
 #include "L117_connect/L117_connect.h"
+#include "L141_hasCycle/L141_hasCycle.h"
+#include "L142_detectCycle/L142_detectCycle.h"
 
 class test_factory {
 private:
@@ -77,6 +79,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L117") {
             std::shared_ptr<L117_connect> tmp= std::make_shared<L117_connect>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L141") {
+            std::shared_ptr<L141_hasCycle> tmp= std::make_shared<L141_hasCycle>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L142") {
+            std::shared_ptr<L142_detectCycle> tmp= std::make_shared<L142_detectCycle>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }

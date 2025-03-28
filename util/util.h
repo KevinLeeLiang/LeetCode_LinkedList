@@ -186,6 +186,32 @@ inline ListNode *create_list(vector<int> list_vals) {
     }
     return head;
 }
+
+inline ListNode* createLinkNode(vector<int> list_vals, int pos) {
+    if (list_vals.size() == 0)
+        return nullptr;
+    ListNode *head = new ListNode(list_vals[0]);
+    ListNode *p = head;
+    ListNode *q;
+    if (pos == 0) {
+        q = p;
+    }
+    for (int i = 1; i < list_vals.size(); ++i) {
+        p->next = new ListNode(list_vals[i]);
+        if (i == pos) {
+            q = p;
+        }
+        p = p->next;
+        if (i == list_vals.size() - 1) {
+            p->next = nullptr;
+        }
+    }
+    if (pos != -1) {
+        p->next = q;
+    }
+    return head;
+};
+
 inline void print_list(ListNode *head) {
     ListNode *p = head;
     while (p != nullptr) {
