@@ -31,6 +31,8 @@
 #include "L117_connect/L117_connect.h"
 #include "L141_hasCycle/L141_hasCycle.h"
 #include "L142_detectCycle/L142_detectCycle.h"
+#include "L143_reorderList/L143_reorderList.h"
+#include "L146_LRUCache/L146_LRUCache.h"
 
 class test_factory {
 private:
@@ -85,6 +87,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L142") {
             std::shared_ptr<L142_detectCycle> tmp= std::make_shared<L142_detectCycle>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L143") {
+            std::shared_ptr<L143_reorderList> tmp= std::make_shared<L143_reorderList>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L146") {
+            std::shared_ptr<L146_LRUCache> tmp= std::make_shared<L146_LRUCache>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }

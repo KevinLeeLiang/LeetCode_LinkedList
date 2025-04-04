@@ -41,3 +41,7 @@ LeetCode链表算法题的解题仓库
 [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/description/?envType=problem-list-v2&envId=linked-list) : [L141_hasCycle](L141_hasCycle)
 
 [142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/description/?envType=problem-list-v2&envId=linked-list) : [L142_detectCycle](L142_detectCycle)
+
+[143. 重排链表](https://leetcode.cn/problems/reorder-list/description/?envType=problem-list-v2&envId=linked-list) : [L143_reorderList](L143_reorderList)
+
+[L146. LRU 缓存机制](https://leetcode.cn/problems/lru-cache/description/?envType=problem-list-v2&envId=linked-list) : [L146_LRUCache](L146_LRUCache)
