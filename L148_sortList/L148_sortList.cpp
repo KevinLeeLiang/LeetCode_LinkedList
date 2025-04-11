@@ -40,6 +40,7 @@ ListNode* L148_sortList::sortList(ListNode *head) {
     if (!head->next) return head;
     ListNode* mid = L148_findMiddle(head);
     ListNode* left = sortList(mid->next);
+    mid->next = nullptr;
     ListNode* right = sortList(head);
     return merge(left, right);
 }
@@ -47,8 +48,14 @@ ListNode* L148_sortList::sortList(ListNode *head) {
 void L148_sortList::test() {
     vector<int>nums = {4, 2, 1, 3};
     ListNode* head = create_list(nums);
-    print_list(head);
+    ListNode* res = sortList(head);
+    print_list(res);
+    nums = {-1,5,3,4,0};
+    head = create_list(nums);
+    res = sortList(head);
+    print_list(res);
     nums = {};
     head = create_list(nums);
-    print_list(head);
+    res = sortList(head);
+    print_list(res);
 }
