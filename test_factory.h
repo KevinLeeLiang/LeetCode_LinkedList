@@ -33,6 +33,8 @@
 #include "L142_detectCycle/L142_detectCycle.h"
 #include "L143_reorderList/L143_reorderList.h"
 #include "L146_LRUCache/L146_LRUCache.h"
+#include "L147_insertionSortList/L147_insertSortList.h"
+#include "L148_sortList//L148_sortList.h"
 
 class test_factory {
 private:
@@ -93,6 +95,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L146") {
             std::shared_ptr<L146_LRUCache> tmp= std::make_shared<L146_LRUCache>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L147") {
+            std::shared_ptr<L147_insertSortList> tmp= std::make_shared<L147_insertSortList>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L148") {
+            std::shared_ptr<L148_sortList> tmp= std::make_shared<L148_sortList>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }
