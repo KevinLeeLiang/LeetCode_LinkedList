@@ -49,3 +49,7 @@ LeetCode链表算法题的解题仓库
 [147. 对链表进行插入排序](https://leetcode.cn/problems/insertion-sort-list/description/?envType=problem-list-v2&envId=linked-list) : [L147_insertionSortList](L147_insertionSortList)
 
 [148. 排序链表](https://leetcode.cn/problems/sort-list/description/?envType=problem-list-v2&envId=linked-list) : [L148_sortList](L148_sortList)
+
+[160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/description/?envType=problem-list-v2&envId=linked-list) : [L160_getIntersectionNode](L160_getIntersectionNode)
+
+[203. 移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/description/?envType=problem-list-v2&envId=linked-list) : [L203_removeElements](L203_removeElements)

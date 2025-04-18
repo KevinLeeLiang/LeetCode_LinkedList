@@ -35,6 +35,8 @@
 #include "L146_LRUCache/L146_LRUCache.h"
 #include "L147_insertionSortList/L147_insertSortList.h"
 #include "L148_sortList//L148_sortList.h"
+#include "L160_getIntersectionNode/L160_getIntersectionNode.h"
+#include "L203_removeElements/L203_removeElements.h"
 
 class test_factory {
 private:
@@ -102,6 +104,14 @@ private:
         } else if (title == "L148") {
             std::shared_ptr<L148_sortList> tmp= std::make_shared<L148_sortList>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L160") {
+            std::shared_ptr<L160_getIntersectionNode> tmp= std::make_shared<L160_getIntersectionNode>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L203") {
+            std::shared_ptr<L203_removeElements> tmp= std::make_shared<L203_removeElements>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:
