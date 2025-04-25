@@ -53,3 +53,7 @@ LeetCode链表算法题的解题仓库
 [160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/description/?envType=problem-list-v2&envId=linked-list) : [L160_getIntersectionNode](L160_getIntersectionNode)
 
 [203. 移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/description/?envType=problem-list-v2&envId=linked-list) : [L203_removeElements](L203_removeElements)
+
+[206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L206_reverseList](L206_reverseList)
+
+[234. 回文链表](https://leetcode.cn/problems/palindrome-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L234_isPalindrome](L234_isPalindrome)

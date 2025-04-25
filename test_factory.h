@@ -37,6 +37,8 @@
 #include "L148_sortList//L148_sortList.h"
 #include "L160_getIntersectionNode/L160_getIntersectionNode.h"
 #include "L203_removeElements/L203_removeElements.h"
+#include "L206_reverseList/L206_reverseList.h"
+#include "L234_isPalindrome/L234_isPalindrome.h"
 
 class test_factory {
 private:
@@ -109,6 +111,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L203") {
             std::shared_ptr<L203_removeElements> tmp= std::make_shared<L203_removeElements>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L206") {
+            std::shared_ptr<L206_reverseList> tmp= std::make_shared<L206_reverseList>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L234") {
+            std::shared_ptr<L234_isPalindrome> tmp= std::make_shared<L234_isPalindrome>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else {
             cout << "no solution" << endl;
