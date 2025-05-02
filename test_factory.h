@@ -39,6 +39,8 @@
 #include "L203_removeElements/L203_removeElements.h"
 #include "L206_reverseList/L206_reverseList.h"
 #include "L234_isPalindrome/L234_isPalindrome.h"
+#include "L237_deleteNode/L237_deleteNode.h"
+#include "L328_oddEvenList/L328_oddEvenList.h"
 
 class test_factory {
 private:
@@ -118,8 +120,12 @@ private:
         } else if (title == "L234") {
             std::shared_ptr<L234_isPalindrome> tmp= std::make_shared<L234_isPalindrome>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L237") {
+            std::shared_ptr<L237_deleteNode> tmp= std::make_shared<L237_deleteNode>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L328") {
+            std::shared_ptr<L328_oddEvenList> tmp= std::make_shared<L328_oddEvenList>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }
 public:

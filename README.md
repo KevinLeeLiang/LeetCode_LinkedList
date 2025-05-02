@@ -57,3 +57,7 @@ LeetCode链表算法题的解题仓库
 [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L206_reverseList](L206_reverseList)
 
 [234. 回文链表](https://leetcode.cn/problems/palindrome-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L234_isPalindrome](L234_isPalindrome)
+
+[237. 删除链表中的节点](https://leetcode.cn/problems/delete-node-in-a-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L237_deleteNode](L237_deleteNode)
+
+[328. 奇偶链表](https://leetcode.cn/problems/odd-even-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L328_oddEvenList](L328_oddEvenList)
