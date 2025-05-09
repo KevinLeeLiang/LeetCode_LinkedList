@@ -41,6 +41,8 @@
 #include "L234_isPalindrome/L234_isPalindrome.h"
 #include "L237_deleteNode/L237_deleteNode.h"
 #include "L328_oddEvenList/L328_oddEvenList.h"
+#include "L355_Twitter/L355_Twitter.h"
+#include "L382_getRandom/L382_getRandom.h"
 
 class test_factory {
 private:
@@ -125,6 +127,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L328") {
             std::shared_ptr<L328_oddEvenList> tmp= std::make_shared<L328_oddEvenList>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L355") {
+            std::shared_ptr<L355_Twitter> tmp= std::make_shared<L355_Twitter>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L382") {
+            std::shared_ptr<L382_getRandom> tmp= std::make_shared<L382_getRandom>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }

@@ -61,3 +61,7 @@ LeetCode链表算法题的解题仓库
 [237. 删除链表中的节点](https://leetcode.cn/problems/delete-node-in-a-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L237_deleteNode](L237_deleteNode)
 
 [328. 奇偶链表](https://leetcode.cn/problems/odd-even-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L328_oddEvenList](L328_oddEvenList)
+
+[355. 设计推特](https://leetcode.cn/problems/design-twitter/description/?envType=problem-list-v2&envId=linked-list) : [L355_Twitter](L355_Twitter)
+
+[382. 链表随机节点](https://leetcode.cn/problems/linked-list-random-node/description/?envType=problem-list-v2&envId=linked-list) : [L382_getRandom](L382_getRandom)
