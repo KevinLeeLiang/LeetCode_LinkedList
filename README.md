@@ -65,3 +65,7 @@ LeetCode链表算法题的解题仓库
 [355. 设计推特](https://leetcode.cn/problems/design-twitter/description/?envType=problem-list-v2&envId=linked-list) : [L355_Twitter](L355_Twitter)
 
 [382. 链表随机节点](https://leetcode.cn/problems/linked-list-random-node/description/?envType=problem-list-v2&envId=linked-list) : [L382_getRandom](L382_getRandom)
+
+[430. 扁平化多级双向链表](https://leetcode.cn/problems/flatten-a-multilevel-doubly-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L430_flatten](L430_flatten)
+
+[432. 全 O(1) 的数据结构](https://leetcode.cn/problems/all-oone-data-structure/description/?envType=problem-list-v2&envId=linked-list) : [L432_AllOne](L432_AllOne)

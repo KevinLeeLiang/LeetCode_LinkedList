@@ -43,6 +43,7 @@
 #include "L328_oddEvenList/L328_oddEvenList.h"
 #include "L355_Twitter/L355_Twitter.h"
 #include "L382_getRandom/L382_getRandom.h"
+#include "L432_allOne/L432_allOne.h"
 
 class test_factory {
 private:
@@ -133,6 +134,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L382") {
             std::shared_ptr<L382_getRandom> tmp= std::make_shared<L382_getRandom>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L432") {
+            std::shared_ptr<L432_allOne> tmp = std::make_shared<L432_allOne>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }
