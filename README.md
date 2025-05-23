@@ -69,3 +69,7 @@ LeetCode链表算法题的解题仓库
 [430. 扁平化多级双向链表](https://leetcode.cn/problems/flatten-a-multilevel-doubly-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L430_flatten](L430_flatten)
 
 [432. 全 O(1) 的数据结构](https://leetcode.cn/problems/all-oone-data-structure/description/?envType=problem-list-v2&envId=linked-list) : [L432_AllOne](L432_AllOne)
+
+[445. 两数相加 II](https://leetcode.cn/problems/add-two-numbers-ii/description/?envType=problem-list-v2&envId=linked-list) : [L445_addTwoNumbers](L445_addTwoNumbers)
+
+[460. LFU 缓存](https://leetcode.cn/problems/lfu-cache/description/?envType=problem-list-v2&envId=linked-list) : [L460_LFUCache](L460_LFUCache)

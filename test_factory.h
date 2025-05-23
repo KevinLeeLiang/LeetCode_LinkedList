@@ -44,6 +44,8 @@
 #include "L355_Twitter/L355_Twitter.h"
 #include "L382_getRandom/L382_getRandom.h"
 #include "L432_allOne/L432_allOne.h"
+#include "L445_addTwoNumbers/L445_addTwoNumbers.h"
+#include "L460_LFUCache/L460_LFUCache.h"
 
 class test_factory {
 private:
@@ -137,6 +139,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L432") {
             std::shared_ptr<L432_allOne> tmp = std::make_shared<L432_allOne>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L445") {
+            std::shared_ptr<L445_addTwoNumbers> tmp = std::make_shared<L445_addTwoNumbers>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L460") {
+            std::shared_ptr<L460_LFUCache> tmp = std::make_shared<L460_LFUCache>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }
