@@ -73,3 +73,7 @@ LeetCode链表算法题的解题仓库
 [445. 两数相加 II](https://leetcode.cn/problems/add-two-numbers-ii/description/?envType=problem-list-v2&envId=linked-list) : [L445_addTwoNumbers](L445_addTwoNumbers)
 
 [460. LFU 缓存](https://leetcode.cn/problems/lfu-cache/description/?envType=problem-list-v2&envId=linked-list) : [L460_LFUCache](L460_LFUCache)
+
+[622. 设计循环队列](https://leetcode.cn/problems/design-circular-queue/description/?envType=problem-list-v2&envId=linked-list) : [L622_myCircularQueue](L622_myCircularQueue)
+
+[641. 设计循环双端队列](https://leetcode.cn/problems/design-circular-deque/description/?envType=problem-list-v2&envId=linked-list) : [L641_myCircularDeque](L641_myCircularDeque)
