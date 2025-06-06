@@ -48,6 +48,8 @@
 #include "L460_LFUCache/L460_LFUCache.h"
 #include "L622_myCircularQueue/L622_myCircularQueue.h"
 #include "L641_myCircularDeque/L641_myCircularDeque.h"
+#include "L705_MyHashSet/L705_MyHashSet.h"
+#include "L706_MyHashMap/L706_MyHashMap.h"
 
 class test_factory {
 private:
@@ -153,6 +155,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L641") {
             std::shared_ptr<L641_myCircularDeque> tmp = std::make_shared<L641_myCircularDeque>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L705") {
+            std::shared_ptr<L705_MyHashSet> tmp = std::make_shared<L705_MyHashSet>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L706") {
+            std::shared_ptr<L706_MyHashMap> tmp = std::make_shared<L706_MyHashMap>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }

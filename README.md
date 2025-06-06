@@ -77,3 +77,7 @@ LeetCode链表算法题的解题仓库
 [622. 设计循环队列](https://leetcode.cn/problems/design-circular-queue/description/?envType=problem-list-v2&envId=linked-list) : [L622_myCircularQueue](L622_myCircularQueue)
 
 [641. 设计循环双端队列](https://leetcode.cn/problems/design-circular-deque/description/?envType=problem-list-v2&envId=linked-list) : [L641_myCircularDeque](L641_myCircularDeque)
+
+[705. 设计哈希集合](https://leetcode.cn/problems/design-hashset/description/?envType=problem-list-v2&envId=linked-list) : [L705_MyHashSet](L705_MyHashSet)
+
+[706. 设计哈希映射](https://leetcode.cn/problems/design-hashmap/description/?envType=problem-list-v2&envId=linked-list) : [L706_MyHashMap](L706_MyHashMap)
