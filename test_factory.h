@@ -50,6 +50,8 @@
 #include "L641_myCircularDeque/L641_myCircularDeque.h"
 #include "L705_MyHashSet/L705_MyHashSet.h"
 #include "L706_MyHashMap/L706_MyHashMap.h"
+#include "L707_MyLinkedList/L707_MyLinkedList.h"
+#include "L725_splitListToParts/L725_splitListToParts.h"
 
 class test_factory {
 private:
@@ -161,6 +163,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L706") {
             std::shared_ptr<L706_MyHashMap> tmp = std::make_shared<L706_MyHashMap>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L707") {
+            std::shared_ptr<L707_MyLinkedList> tmp = std::make_shared<L707_MyLinkedList>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L725") {
+            std::shared_ptr<L725_splitListToParts> tmp = std::make_shared<L725_splitListToParts>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }

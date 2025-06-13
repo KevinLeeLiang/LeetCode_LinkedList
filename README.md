@@ -81,3 +81,7 @@ LeetCode链表算法题的解题仓库
 [705. 设计哈希集合](https://leetcode.cn/problems/design-hashset/description/?envType=problem-list-v2&envId=linked-list) : [L705_MyHashSet](L705_MyHashSet)
 
 [706. 设计哈希映射](https://leetcode.cn/problems/design-hashmap/description/?envType=problem-list-v2&envId=linked-list) : [L706_MyHashMap](L706_MyHashMap)
+
+[707. 设计链表](https://leetcode.cn/problems/design-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L707_MyLinkedList](L707_MyLinkedList)
+
+[725. 分隔链表](https://leetcode.cn/problems/split-linked-list-in-parts/description/?envType=problem-list-v2&envId=linked-list) : [L725_splitListToParts](L725_splitListToParts)
