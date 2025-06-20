@@ -52,6 +52,8 @@
 #include "L706_MyHashMap/L706_MyHashMap.h"
 #include "L707_MyLinkedList/L707_MyLinkedList.h"
 #include "L725_splitListToParts/L725_splitListToParts.h"
+#include "L817_numComponents/L817_numComponents.h"
+#include "L876_middleNode/L876_middleNode.h"
 
 class test_factory {
 private:
@@ -169,6 +171,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L725") {
             std::shared_ptr<L725_splitListToParts> tmp = std::make_shared<L725_splitListToParts>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L817") {
+            std::shared_ptr<L817_numComponents> tmp = std::make_shared<L817_numComponents>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L876") {
+            std::shared_ptr<L876_middleNode> tmp = std::make_shared<L876_middleNode>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }

@@ -85,3 +85,7 @@ LeetCode链表算法题的解题仓库
 [707. 设计链表](https://leetcode.cn/problems/design-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L707_MyLinkedList](L707_MyLinkedList)
 
 [725. 分隔链表](https://leetcode.cn/problems/split-linked-list-in-parts/description/?envType=problem-list-v2&envId=linked-list) : [L725_splitListToParts](L725_splitListToParts)
+
+[817. 链表组件](https://leetcode.cn/problems/linked-list-components/description/?envType=problem-list-v2&envId=linked-list) : [L817_numComponents](L817_numComponents)
+
+[876. 链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L876_middleNode](L876_middleNode)
