@@ -89,3 +89,7 @@ LeetCode链表算法题的解题仓库
 [817. 链表组件](https://leetcode.cn/problems/linked-list-components/description/?envType=problem-list-v2&envId=linked-list) : [L817_numComponents](L817_numComponents)
 
 [876. 链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L876_middleNode](L876_middleNode)
+
+[1019. 链表中的下一个更大节点](https://leetcode.cn/problems/next-greater-node-in-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L1019_nextLargerNodes](L1019_nextLargerNodes)
+
+[1171. 从链表中删去总和值为零的连续节点](https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L1171_removeZeroSumSublists](L1171_removeZeroSumSublists)

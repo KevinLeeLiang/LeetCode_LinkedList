@@ -54,6 +54,8 @@
 #include "L725_splitListToParts/L725_splitListToParts.h"
 #include "L817_numComponents/L817_numComponents.h"
 #include "L876_middleNode/L876_middleNode.h"
+#include "L1019_nextLargerNodes/L1019_nextLargerNodes.h"
+#include "L1171_removeZeroSumSublists/L1171_removeZeroSumSublists.h"
 
 class test_factory {
 private:
@@ -177,6 +179,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L876") {
             std::shared_ptr<L876_middleNode> tmp = std::make_shared<L876_middleNode>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L1019") {
+            std::shared_ptr<L1019_nextLargerNodes> tmp = std::make_shared<L1019_nextLargerNodes>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L1171") {
+            std::shared_ptr<L1171_removeZeroSumSublists> tmp = std::make_shared<L1171_removeZeroSumSublists>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }
