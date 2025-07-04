@@ -93,3 +93,7 @@ LeetCode链表算法题的解题仓库
 [1019. 链表中的下一个更大节点](https://leetcode.cn/problems/next-greater-node-in-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L1019_nextLargerNodes](L1019_nextLargerNodes)
 
 [1171. 从链表中删去总和值为零的连续节点](https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list/description/?envType=problem-list-v2&envId=linked-list) : [L1171_removeZeroSumSublists](L1171_removeZeroSumSublists)
+
+[1206. 设计跳表](https://leetcode.cn/problems/design-skiplist/description/?envType=problem-list-v2&envId=linked-list) : [L1206_Skiplist](L1206_Skiplist)
+
+[1290. 二进制链表转整数](https://leetcode.cn/problems/convert-binary-number-in-a-linked-list-to-integer/description/?envType=problem-list-v2&envId=linked-list) : [L1290_getDecimalValue](L1290_getDecimalValue)
