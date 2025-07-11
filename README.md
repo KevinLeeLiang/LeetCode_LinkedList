@@ -97,3 +97,5 @@ LeetCode链表算法题的解题仓库
 [1206. 设计跳表](https://leetcode.cn/problems/design-skiplist/description/?envType=problem-list-v2&envId=linked-list) : [L1206_Skiplist](L1206_Skiplist)
 
 [1290. 二进制链表转整数](https://leetcode.cn/problems/convert-binary-number-in-a-linked-list-to-integer/description/?envType=problem-list-v2&envId=linked-list) : [L1290_getDecimalValue](L1290_getDecimalValue)
+
+[1367. 二叉树中的链表](https://leetcode.cn/problems/linked-list-in-binary-tree/description/?envType=problem-list-v2&envId=linked-list) : [L1367_isSubPath](L1367_isSubPath)

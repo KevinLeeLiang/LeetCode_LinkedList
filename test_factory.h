@@ -58,6 +58,7 @@
 #include "L1171_removeZeroSumSublists/L1171_removeZeroSumSublists.h"
 #include "L1206_Skiplist/L1206_Skiplist.h"
 #include "L1290_getDecimalValue/L1290_getDecimalValue.h"
+#include "L1367_isSubPath/L1367_isSubPath.h"
 
 class test_factory {
 private:
@@ -193,6 +194,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L1290") {
             std::shared_ptr<L1290_getDecimalValue> tmp = std::make_shared<L1290_getDecimalValue>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L1367") {
+            std::shared_ptr<L1367_isSubPath> tmp = std::make_shared<L1367_isSubPath>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }
