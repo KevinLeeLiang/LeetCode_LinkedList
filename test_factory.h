@@ -59,6 +59,7 @@
 #include "L1206_Skiplist/L1206_Skiplist.h"
 #include "L1290_getDecimalValue/L1290_getDecimalValue.h"
 #include "L1367_isSubPath/L1367_isSubPath.h"
+#include "L1472_BrowserHistory/L1472_BrowserHistory.h"
 
 class test_factory {
 private:
@@ -197,6 +198,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L1367") {
             std::shared_ptr<L1367_isSubPath> tmp = std::make_shared<L1367_isSubPath>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L1472") {
+            std::shared_ptr<L1472_BrowserHistory> tmp = std::make_shared<L1472_BrowserHistory>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }
