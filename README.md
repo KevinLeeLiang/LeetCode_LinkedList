@@ -101,3 +101,5 @@ LeetCode链表算法题的解题仓库
 [1367. 二叉树中的链表](https://leetcode.cn/problems/linked-list-in-binary-tree/description/?envType=problem-list-v2&envId=linked-list) : [L1367_isSubPath](L1367_isSubPath)
 
 [1472. 设计浏览器历史](https://leetcode.cn/problems/design-browser-history/description/?envType=problem-list-v2&envId=linked-list) : [L1472_BrowserHistory](L1472_BrowserHistory)
+
+[1669. 合并两个链表](https://leetcode.cn/problems/merge-in-between-linked-lists/description/?envType=problem-list-v2&envId=linked-list) : [L1669_mergeInBetween](L1669_mergeInBetween)

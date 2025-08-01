@@ -60,6 +60,7 @@
 #include "L1290_getDecimalValue/L1290_getDecimalValue.h"
 #include "L1367_isSubPath/L1367_isSubPath.h"
 #include "L1472_BrowserHistory/L1472_BrowserHistory.h"
+#include "L1669_mergeInBetween/L1669_mergeInBetween.h"
 
 class test_factory {
 private:
@@ -201,6 +202,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         } else if (title == "L1472") {
             std::shared_ptr<L1472_BrowserHistory> tmp = std::make_shared<L1472_BrowserHistory>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
+        } else if (title == "L1669") {
+            std::shared_ptr<L1669_mergeInBetween> tmp = std::make_shared<L1669_mergeInBetween>();
             solution_ = std::dynamic_pointer_cast<LeetcodeLinkedList>(tmp);
         }
     }
